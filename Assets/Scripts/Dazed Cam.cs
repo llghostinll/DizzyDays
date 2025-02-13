@@ -29,7 +29,7 @@ public class DazedCameraEffect : MonoBehaviour
         );
 
         // Apply a slight rotation to simulate dizziness
-        float rotationOffset = Mathf.Sin(Time.time * rotationSpeed) * 1.5f; // Adjust amplitude as needed
+        float rotationOffset = Mathf.Sin(Time.time * rotationSpeed) * 2.0f; // Adjust amplitude as needed
 
         // Update the camera's position and rotation
         transform.localPosition = originalPosition + shakeOffset;

@@ -1,16 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-
-public class WIN : MonoBehaviour
+public class Win : MonoBehaviour
 
 {
     public AudioSource AS;
     public AudioClip goal;
-    
+
     private void OnCollisionEnter(Collision other)
     {
         Debug.Log(other.gameObject);
@@ -18,9 +15,8 @@ public class WIN : MonoBehaviour
         {
 
             UnityEngine.SceneManagement.SceneManager.LoadScene("VictoryScreen");
-          
+
         }
     }
 }
-
-
+    

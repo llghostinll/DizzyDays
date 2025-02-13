@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.45135218, g: 0.5009391, b: 0.5728455, a: 1}
+  m_IndirectSpecularColor: {r: 0.4513517, g: 0.5009388, b: 0.5728449, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -753,10 +753,10 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 42c5f45af26c8d24381d5edfce233568, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c7499d691d8590c4691a8038ae611e21, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
+  m_Volume: 0.464
+  m_Pitch: 0.63
   Loop: 1
   Mute: 0
   Spatialize: 0
@@ -799,7 +799,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.483
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -1286,6 +1286,22 @@ PrefabInstance:
     - target: {fileID: 6584750617934336055, guid: 91b454309f18af94cbe6a0942d05a30e, type: 3}
       propertyPath: m_Name
       value: First Person Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584750617934336055, guid: 91b454309f18af94cbe6a0942d05a30e, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204014712682474396, guid: 91b454309f18af94cbe6a0942d05a30e, type: 3}
+      propertyPath: orthographic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204014712682474396, guid: 91b454309f18af94cbe6a0942d05a30e, type: 3}
+      propertyPath: field of view
+      value: 76.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8204014712682474396, guid: 91b454309f18af94cbe6a0942d05a30e, type: 3}
+      propertyPath: m_FOVAxisMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2464,9 +2480,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc879cfdc2418c04ab39f6c7be5816c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shakeIntensity: 0.18
-  shakeDuration: 0.5
-  rotationSpeed: 5
+  shakeIntensity: 0.3
+  shakeDuration: 12
+  rotationSpeed: 25
 --- !u!1 &1820430420
 GameObject:
   m_ObjectHideFlags: 0
